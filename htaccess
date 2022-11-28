@@ -1,0 +1,48 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page26290231.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^pulsexo$ page30540087.html [NC]
+RewriteRule ^pulsexo/$ page30540087.html [NC]
+
+RewriteRule ^uk$ page26277242.html [NC]
+RewriteRule ^uk/$ page26277242.html [NC]
+
+RewriteRule ^en$ page26290231.html [NC]
+RewriteRule ^en/$ page26290231.html [NC]
+
+RewriteRule ^fr$ page26352142.html [NC]
+RewriteRule ^fr/$ page26352142.html [NC]
+
+RewriteRule ^de$ page26354259.html [NC]
+RewriteRule ^de/$ page26354259.html [NC]
+
+RewriteRule ^pt$ page26359285.html [NC]
+RewriteRule ^pt/$ page26359285.html [NC]
+
+RewriteRule ^tr$ page26365913.html [NC]
+RewriteRule ^tr/$ page26365913.html [NC]
+
+RewriteRule ^it$ page26366106.html [NC]
+RewriteRule ^it/$ page26366106.html [NC]
+
+RewriteRule ^pl$ page26366247.html [NC]
+RewriteRule ^pl/$ page26366247.html [NC]
+
+RewriteRule ^gr$ page26403979.html [NC]
+RewriteRule ^gr/$ page26403979.html [NC]
+
+RewriteRule ^es$ page26454252.html [NC]
+RewriteRule ^es/$ page26454252.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6533-6238-4438-b237-373462353532/favicon.ico [R=302,L]
+
