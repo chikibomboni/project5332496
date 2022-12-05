@@ -2,13 +2,23 @@
     "rewrites": [
       { "source": "/uk", "destination": "/page26277242.html" },
       { "source": "/uk/", "destination": "/page26277242.html" },
-      { "source": "/en", "destination": "/page26290231.html" },
-      { "source": "/en/", "destination": "/page26290231.html" },
+      { "source": "/en", "destination": "/" },
+      { "source": "/en/", "destination": "/" },
       { "source": "/fr", "destination": "/page26352142.html" },
       { "source": "/fr/", "destination": "/page26352142.html" },
       { "source": "/de", "destination": "/page26354259.html" },
       { "source": "/de/", "destination": "/page26354259.html" },
       { "source": "/pt", "destination": "/page26359285.html" },
-      { "source": "/pt/", "destination": "/page26359285.html" }
+      { "source": "/pt/", "destination": "/page26359285.html" },
+      { "source": "/tr", "destination": "/page26365913.html" },
+      { "source": "/tr/", "destination": "/page26365913.html" },
+      { "source": "/it", "destination": "/page26366106.html" },
+      { "source": "/it/", "destination": "/page26366106.html" },
+      { "source": "/pl", "destination": "/page26366247.html" },
+      { "source": "/pl/", "destination": "/page26366247.html" },
+      { "source": "/gr", "destination": "/page26403979.html" },
+      { "source": "/gr/", "destination": "/page26403979.html" },
+      { "source": "/es", "destination": "/page26454252.html" },
+      { "source": "/es/", "destination": "/page26454252.html" }
     ]
   }
